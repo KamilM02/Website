@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  box-shadow: 0 2vh 2vh -1vh rgba(0,0,0,0.5);
+  z-index: 1001;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  padding: 1.44vh 1.66vh;
+  text-decoration: none;
+  font-size: 1.77vh;
+  width: 20%;
+  text-align: center;
+  opacity: 100%;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+.brand{
+  pointer-events: none;
+  font-family: 'Press Start 2P', cursive;
+  color: cyan;
+
+}
+.topnav a:hover {
+  background-color: rgba(173, 216, 230, 0.5);
+  color: black;
+}
+
+
+
+
+.header{
+ height: 60vh;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?cs=srgb&dl=pexels-kellie-churchman-1001682.jpg&fm=jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+
+.firsttext h2{
+  width: 100%;
+  color:white;
+  position: absolute;
+  top: 20vh;
+  bottom: 50vh;
+  text-align: center;
+  font-size: 10vh;
+  font-family: 'Monoton', cursive;
+}
+
+.infocontainer{
+  padding-top: 0%;
+}
+.info{
+text-align: center;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-size: 3vh;
+padding-left: 30%;
+padding-right: 30%;
+}
+
+.info h1{
+padding-top: 10%;
+font-family: 'Fredoka One', cursive;
+font-size: 6vh;
+color: indigo;
+}
+
+.helpuscontainer{
+ padding-top: 7%;
+}
+
+.helpus{
+  box-shadow: 10px 10px 100px 0px grey;
+  margin: auto;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 20%;
+  padding-bottom: 8%;
+  width: 80%;
+  background-color: rgba(245, 245, 220, 0.5);
+  text-align: left;
+  height: 110%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 2vh;
+}
+.helpus h1{
+  font-family: 'Fredoka One', cursive;
+  font-size: 6vh;
+  color: indigo;
+  text-align: left;
+}
+
+.helpus h2{
+  padding-top: 10%;
+  font-family: 'Fredoka One', cursive;
+  font-size: 6vh;
+  color: indigo;
+
+}
+.quote{
+  padding-top: 1%;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+
+}
+
+.quote h1{
+  font-family: 'Caveat', cursive;
+  font-size: 3vh;
+
+}
+
+video{
+  padding-top: 7%;
+}
+.center{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+.endingcontainer{
+  padding-top: 5%;
+}
+.ending{
+  padding-top: 2%;
+  background-color: rgba(75, 0, 130, 0.8);
+  color: white;
+  text-align: center;
+  padding-right: 30%;
+  padding-left: 30%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  height: 15%;
+  padding-bottom: 3%;
+  font-size: 1.5vh;
+
+}
+
+.ending h1{
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2vh;
+
+}
+
+footer{
+  padding-top: 3%;
+}
+
+.footer2{
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 2vh;
+  padding-bottom: 3%;
+}
+
+.footer2 h1{
+  color: indigo;
+  font-family: 'Fredoka One', cursive;
+  font-size: 3vh;
+
+}
+.lasttext{
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 2%;
+}
+
+.lasttext h1{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: indigo;
+  font-size: 1.5vh;
+}
